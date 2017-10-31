@@ -8,6 +8,66 @@
             <set />
           </value>
         </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/277cd248-f4cd-4d0e-93e4-eeb5c76c003f/console.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/AbstractBatchUploadValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/assortment/AssortmentCandidateWorkRequestCreator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/assortment/AssortmentValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/parser/CandidateWorkRequestCreator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/primoPick/PrimoPickBatchUpload.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/primoPick/PrimoPickCandidateWorkRequestCreator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/primoPick/PrimoPickConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/primoPick/PrimoPickExcelFileInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/primoPick/PrimoPickSetter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/pm/batchUpload/primoPick/PrimoPickValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pm cps/workspace/product-maintenance-api/src/main/java/com/heb/util/sercurity/AntiVirusUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../hello/.idea/workspace.xml">
           <value>
             <set />
@@ -29,6 +89,31 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/com/helloword/HelloServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/login-process.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/login-success.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/login.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/styles/app.css">
           <value>
             <set />
           </value>
