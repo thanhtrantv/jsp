@@ -31,3 +31,16 @@ header h3,footer h4{
 .username-form {
     padding-top: 120px;
 }
+.header-table-info{
+    text-align:center;
+}
+#list-student{
+    width:70%;
+    margin:0 auto;
+}
+#list-student .header-table{
+    background-color:#fbe4c7;
+}
+#list-student tr:nth-child(even){
+    background-color:#dddddd;
+}
