@@ -4,7 +4,8 @@
 <html>
     <head><title>Hello word!!</title></head>
     <body>
-        Hello World!<br/>
-        <%="Time is " + LocalDateTime.now()%>
+        The site is working now!<br/>
+        <%-- this is comment for my codes --%>
+        <jsp:include page = "datetime.jsp" flush = "true" />
     </body>
 </html>
