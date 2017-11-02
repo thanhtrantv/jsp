@@ -44,3 +44,15 @@ header h3,footer h4{
 #list-student tr:nth-child(even){
     background-color:#dddddd;
 }
+.student-detail{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 13px;
+ }
+ .student-detail .header-detail{
+    background-color: #8ca935;
+ }
+ #student-detail-form.container{
+    margin:10px;
+ }

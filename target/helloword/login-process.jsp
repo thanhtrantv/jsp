@@ -3,7 +3,8 @@
     String password = request.getParameter("password");
     if(username.equalsIgnoreCase("admin")
         && password.equalsIgnoreCase("admin123")){
-        String redirectURL = "login-success.jsp?username="+username;
+        session.setAttribute("usernameLogin",username);
+        String redirectURL = "login-success.jsp";
         response.sendRedirect(redirectURL);
     }else{
     	out.println("Login failure!");

@@ -7,7 +7,7 @@
     </head>
     <body>
         <jsp:include page = "header.jsp" flush = "true" />
-        <h3>Hello <%=request.getParameter("username")%></h3>
+
         <h3 class="header-table-info">List Student</h3>
         <table id="list-student">
              <tr class="header-table">
@@ -42,10 +42,13 @@
 
                 for(int i=0;i<lstStudent.size();i++){
                      Student std=lstStudent.get(i);
-
              %>
                      <tr>
-                        <td><%=std.getId() %></td>
+                        <td>
+                            <a href="student-detail.jsp?idStudent=<%=std.getId() %>">
+                                <%=std.getId() %>
+                            </a>
+                        </td>
                         <td><%=std.getName() %></td>
                         <td><%=std.getMark() %></td>
                         <td><%=std.getClassName() %></td>

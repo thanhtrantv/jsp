@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="styles/app.css">
     </head>
     <body>
-        <jsp:include page = "header.jsp" flush = "true" />
+
         <div class="login-container">
             <form action="login-process.jsp" method="post">
                 <div class="username-form form-control">
