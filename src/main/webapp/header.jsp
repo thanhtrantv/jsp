@@ -2,11 +2,10 @@
     <h3>MISTA Training</h3>
     <%
         String username=(String)session.getAttribute("usernameLogin");
-        out.println(username);
+
         if(username==null || username.equals("")){
-        %>
-        <jsp:forward page="login.jsp">
-        <%
+			String redirectURL = "logout.jsp";
+			response.sendRedirect(redirectURL);
         }else{
     %>
         <label>Hello <%=session.getAttribute("usernameLogin")%></label>

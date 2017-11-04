@@ -1,5 +1,13 @@
 <%@ page import="java.util.*" %>
 <%@ page import="main.java.com.helloword.*" %>
+<%
+	String username=(String)session.getAttribute("usernameLogin");
+
+	if(username==null || username.equals("")){
+		String redirectURL = "logout.jsp";
+		response.sendRedirect(redirectURL);
+    }
+%>
 <html>
     <head>
         <title>Welcome Page</title>
