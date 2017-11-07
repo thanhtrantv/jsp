@@ -10,7 +10,9 @@ public class HelloServlet extends javax.servlet.http.HttpServlet {
 		System.out.println("post request");
 	}
 
-	protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+	protected void doGet(javax.servlet.http.HttpServletRequest request,
+						 javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
 		System.out.println("get request");
+		response.sendRedirect("index.jsp");
 	}
 }

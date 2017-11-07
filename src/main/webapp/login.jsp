@@ -6,7 +6,7 @@
     <body>
 
         <div class="login-container">
-            <form action="login-process.jsp" method="post">
+            <form action="login" method="post">
                 <div class="username-form form-control">
                     <label >User Name</label>
                     <input type="text" id="username" name="username">
