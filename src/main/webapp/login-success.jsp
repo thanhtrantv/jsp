@@ -53,7 +53,7 @@
              %>
                      <tr>
                         <td>
-                            <a href="student-detail.jsp?idStudent=<%=std.getId() %>">
+                            <a href="student-detail?idStudent=<%=std.getId() %>">
                                 <%=std.getId() %>
                             </a>
                         </td>

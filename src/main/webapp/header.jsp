@@ -9,7 +9,7 @@
         }else{
     %>
         <label>Hello <%=session.getAttribute("usernameLogin")%></label>
-        <a href="logout.jsp">Logout</a>
+        <a href="logout">Logout</a>
     <%
         }
     %>
