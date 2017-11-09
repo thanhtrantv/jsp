@@ -2,6 +2,8 @@ package com.login;
 
 import com.common.User;
 import com.database.LoginService;
+import com.database.StudentService;
+import com.helloword.Student;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -28,9 +30,16 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
             e.printStackTrace();
         }
         if(isLogin==true){
-            request.getSession().setAttribute("usernameLogin",user.getFullName());
-            String redirectURL = "login-success.jsp";
-            response.sendRedirect(redirectURL);
+            try {
+                StudentService studentService=new StudentService();
+                request.getSession().setAttribute("lstStudent", studentService.getListStudent());
+                request.getSession().setAttribute("usernameLogin",user.getFullName());
+                String redirectURL = "login-success.jsp";
+                response.sendRedirect(redirectURL);
+            }
+            catch(Exception e){
+                e.printStackTrace();
+            }
         }else{
             response.getWriter().println("Login failure!");
         }
