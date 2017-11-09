@@ -1,5 +1,5 @@
 <%@ page import="java.util.*" %>
-<%@ page import="main.java.com.helloword.*" %>
+<%@ page import="com.helloword.*" %>
 <%
 	String username=(String)session.getAttribute("usernameLogin");
 
@@ -25,7 +25,7 @@
                 <th>Class</th>
              </tr>
              <%
-                List<Student> lstStudent= (List)session.getAttribute("lstStudent");
+                List<Student> lstStudent= (ArrayList<Student>)session.getAttribute("lstStudent");
 
                 for(int i=0;i<lstStudent.size();i++){
                      Student std=lstStudent.get(i);
