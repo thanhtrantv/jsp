@@ -1,4 +1,4 @@
-package main.java.com.helloword;
+package com.helloword;
 
 public class Student {
     private int id;

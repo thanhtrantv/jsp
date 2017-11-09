@@ -1,6 +1,6 @@
 package com.student;
 
-import main.java.com.helloword.Student;
+import com.helloword.Student;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
