@@ -31,8 +31,8 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
         }
         if(isLogin==true){
             try {
-                StudentService studentService=new StudentService();
-                request.getSession().setAttribute("lstStudent", studentService.getListStudent());
+                //StudentService studentService=new StudentService();
+               // request.getSession().setAttribute("lstStudent", studentService.getListStudent());
                 request.getSession().setAttribute("usernameLogin",user.getFullName());
                 String redirectURL = "login-success.jsp";
                 response.sendRedirect(redirectURL);

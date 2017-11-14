@@ -56,3 +56,9 @@ header h3,footer h4{
  #student-detail-form.container{
     margin:10px;
  }
+ .loading-bar .spiner{
+     width: 200px;
+     height: 200px;
+     margin: 0 auto;
+     background-image: url('../images/Dual Ring.gif');
+ }

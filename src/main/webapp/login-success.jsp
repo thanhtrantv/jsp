@@ -12,6 +12,7 @@
     <head>
         <title>Welcome Page</title>
         <link rel="stylesheet" type="text/css" href="styles/app.css">
+        <script src="javascript/app.js"></script>
     </head>
     <body>
         <jsp:include page = "header.jsp" flush = "true" />
@@ -24,26 +25,10 @@
                 <th>Mark</th>
                 <th>Class</th>
              </tr>
-             <%
-                List<Student> lstStudent= (ArrayList<Student>)session.getAttribute("lstStudent");
-
-                for(int i=0;i<lstStudent.size();i++){
-                     Student std=lstStudent.get(i);
-             %>
-                     <tr>
-                        <td>
-                            <a href="student-detail?idStudent=<%=std.getId() %>">
-                                <%=std.getId() %>
-                            </a>
-                        </td>
-                        <td><%=std.getName() %></td>
-                        <td><%=std.getMark() %></td>
-                        <td><%=std.getClassName() %></td>
-                     </tr>
-             <%
-                }
-             %>
         </table>
+        <div class="loading-bar">
+            <div class="spiner" ></div>
+        </div>
         <jsp:include page = "footer.jsp" flush = "true" />
     </body>
 </html>

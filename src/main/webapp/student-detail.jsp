@@ -1,5 +1,5 @@
 <%@ page import="java.util.*" %>
-<%@ page import="main.java.com.helloword.*" %>
+<%@ page import="com.helloword.*" %>
 <%
 	String username=(String)session.getAttribute("usernameLogin");
 

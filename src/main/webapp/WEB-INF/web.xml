@@ -33,4 +33,22 @@
         <servlet-name>StudentDetailServlet</servlet-name>
         <url-pattern>/student-detail</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StudentsServlet</servlet-name>
+        <servlet-class>com.student.StudentsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentsServlet</servlet-name>
+        <url-pattern>/get-students</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.logout.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
 </web-app>
