@@ -15,7 +15,7 @@ function loadData(){
                 var trElement=document.createElement("tr");
                 var td1=document.createElement("td");
                 var urlDetail=document.createElement("a");
-                urlDetail.setAttribute("href","student-detail?idStudent="+student.id);
+                urlDetail.setAttribute("href","student-detail.jsp?idStudent="+student.id);
                 urlDetail.text=student.id+"";
                 td1.appendChild(urlDetail);
                 var td2=document.createElement("td");
