@@ -16,6 +16,8 @@ function loadData(){
             document.getElementsByClassName("mark-student")[0].innerHTML=jsondata.mark;
             document.getElementsByClassName("class-student")[0].innerHTML=jsondata.className;
             document.getElementsByClassName("name-student")[0].innerHTML=jsondata.name;
+            document.getElementsByClassName("content-detail")[0].style="display:block";
+            document.getElementsByClassName('loading-bar')[0].style="display:none";
         }
     };
 }

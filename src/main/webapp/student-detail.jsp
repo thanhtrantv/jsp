@@ -23,7 +23,7 @@
                 <div class="header-detail">
                     <h2>Student detail</h2>
                 </div>
-                <div class="content-detail">
+                <div class="content-detail" style="display:none;">
                     <label>Id</label>
                     <h3 class="id-student"></h3>
                     <label>Name Student</label>
@@ -32,6 +32,9 @@
                     <h3 class="class-student"></h3>
                     <label>Mark</label>
                     <h3 class="mark-student"></h3>
+                </div>
+                <div class="loading-bar">
+                     <div class="spiner" ></div>
                 </div>
                 <button>
                     <a href="login-success.jsp">Back</a>

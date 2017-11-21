@@ -10,6 +10,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentService {
+    public String addStudent(String name, String className,int mark){
+        String result="error";
+        ConnectDB conDB=new ConnectDB();
+        Connection conn=conDB.connect();
+        String sql="INSERT INTO student (name, className, mark) " +
+                "VALUES (?, ?, ?)";
+        if(conn!=null){
+            try{
+                PreparedStatement sttm = conn.prepareStatement(sql);
+                sttm.setString(1, name);
+                sttm.setString(2, className);
+                sttm.setInt(3, mark);
+                if(sttm.executeUpdate()!=0){
+                    result="success";
+                }
+            }
+            catch(Exception e){
+                e.printStackTrace();
+            }
+        }
+        return result;
+    }
     public List<Student> getListStudent() throws Exception{
         List<Student> lst=new ArrayList<>();
         ConnectDB conDB=new ConnectDB();

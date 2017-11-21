@@ -52,5 +52,12 @@
         <url-pattern>/logout</url-pattern>
     </servlet-mapping>
 
-
+    <servlet>
+        <servlet-name>AddStudentServlet</servlet-name>
+        <servlet-class>com.student.AddStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddStudentServlet</servlet-name>
+        <url-pattern>/add-student</url-pattern>
+    </servlet-mapping>
 </web-app>
