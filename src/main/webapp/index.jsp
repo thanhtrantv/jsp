@@ -7,5 +7,7 @@
         The site is working now!<br/>
         <%-- this is comment for my codes --%>
         <jsp:include page = "datetime.jsp" flush = "true" />
+
+        xin chao!
     </body>
 </html>

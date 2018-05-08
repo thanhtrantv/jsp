@@ -1,7 +1,7 @@
 package com.student;
 
 import com.database.StudentService;
-import com.google.gson.Gson;
+//import com.google.gson.Gson;
 import com.helloword.Student;
 
 import javax.servlet.RequestDispatcher;
@@ -21,12 +21,12 @@ public class StudentDetailServlet extends javax.servlet.http.HttpServlet {
         try {
             Student studentDetail=studentService.findStudentById(id);
             System.out.print(studentDetail);
-            String json = new Gson().toJson(studentDetail);
+//            String json = new Gson().toJson(studentDetail);
             response.setContentType("application/json");
 // Get the printwriter object from response to write the required json object to the output stream
             PrintWriter out = response.getWriter();
 // Assuming your json object is **jsonObject**, perform the following, it will return your json object
-            out.print(json);
+//            out.print(json);
             out.flush();
         }
         catch(Exception e){

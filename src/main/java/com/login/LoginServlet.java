@@ -29,12 +29,13 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
         catch(Exception e){
             e.printStackTrace();
         }
+       // boolean isLogin = false;
+//        if(username.equals("admin") && password.equals("123"))
+//            isLogin = true;
         if(isLogin==true){
             try {
-                //StudentService studentService=new StudentService();
-               // request.getSession().setAttribute("lstStudent", studentService.getListStudent());
-                request.getSession().setAttribute("usernameLogin",user.getFullName());
-                String redirectURL = "login-success.jsp";
+                request.getSession().setAttribute("usernameLogin",username);
+                String redirectURL = "changePassword.jsp";
                 response.sendRedirect(redirectURL);
             }
             catch(Exception e){
